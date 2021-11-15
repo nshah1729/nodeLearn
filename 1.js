@@ -5,4 +5,23 @@ GLOBAL OBJECTS:
 3.process--->info about environment where the program is being executed
 4.require--->funtion to use modules(import them)
 5.module--->info about current module
-*/ 
+*/
+
+/*
+  -------------MODULES-------------
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ */
