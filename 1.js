@@ -10,6 +10,7 @@ GLOBAL OBJECTS:
 /*
   -------------MODULES-------------
     
+die
 
 
 
@@ -23,5 +24,4 @@ GLOBAL OBJECTS:
 
 
 
-  
  */
