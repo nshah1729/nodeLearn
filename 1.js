@@ -10,7 +10,7 @@ GLOBAL OBJECTS:
 /*
   -------------MODULES-------------
     
-die
+Hi there!
 
 
 
