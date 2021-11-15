@@ -1,8 +1,8 @@
 /*
 GLOBAL OBJECTS:
-1.__dirname
-2.__fileame
-3.process
-4.require
-5.module
+1.__dirname--->Path to Current Directory
+2.__filename--->file name
+3.process--->info about environment where the program is being executed
+4.require--->funtion to use modules(import them)
+5.module--->info about current module
 */ 
