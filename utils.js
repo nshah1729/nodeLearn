@@ -3,5 +3,9 @@ const path = require('path')
 const fs = require('fs')
 // console.log(os.userInfo()); 
 // console.log(os.uptime()); 
-console.log(path.sep);
-console.log(fs);
+
+
+fs.readFile('./content/1.txt','utf8',(err,res)=>{
+    if(!err)console.log(res);
+    return;
+});
