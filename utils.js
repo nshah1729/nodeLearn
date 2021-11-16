@@ -1,5 +1,9 @@
 
 // console.log(module);
 const names=require('./names')
-cosnt
-console.log(names);
+const {sayHi}=require('./func')
+
+sayHi('John')
+sayHi(names.peter)
+
+// console.log(names);
