@@ -11,13 +11,14 @@ GLOBAL OBJECTS:
   -------------MODULES-------------
   -->Every file in NodeJs is a Module(By Default)
   -->Built-in Modules:
-        1.OS
-        2.PATH
-        3.FS
-        4.HTTP
+        1.OS-info about the OS
+        2.PATH-getting paths
+        3.FS-reading and writing(to) files
+        4.HTTP-help us in setting up a web server.
 
   ---------------------------------
   Alternatives to callBack:(Avoiding Callbeack Hell)
   1.Promises
   2.Async-Await
  */
+
