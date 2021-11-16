@@ -15,4 +15,9 @@ GLOBAL OBJECTS:
         2.PATH
         3.FS
         4.HTTP
+
+  ---------------------------------
+  Alternatives to callBack:(Avoiding Callbeack Hell)
+  1.Promises
+  2.Async-Await
  */
