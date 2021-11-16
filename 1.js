@@ -9,4 +9,5 @@ GLOBAL OBJECTS:
 
 /*
   -------------MODULES-------------
+  -->Every file in NodeJs is a Module(By Default)
  */
