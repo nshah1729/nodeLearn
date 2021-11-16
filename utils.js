@@ -9,3 +9,4 @@ fs.readFile('./content/1.txt','utf8',(err,res)=>{
     if(!err)console.log(res);
     return;
 });
+
