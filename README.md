@@ -1,5 +1,5 @@
 
-GLOBAL OBJECTS:
+GLOBAL OBJECTS:<br>
 1.__dirname--->Path to Current Directory<br>
 2.__filename--->file name<br>
 3.process--->info about environment where the program is being executed<br>
