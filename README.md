@@ -1,30 +1,30 @@
 
 GLOBAL OBJECTS:
-1.__dirname--->Path to Current Directory<hr>
-2.__filename--->file name<hr>
-3.process--->info about environment where the program is being executed<hr>
-4.require--->funtion to use modules(import them)<hr>
+1.__dirname--->Path to Current Directory<br>
+2.__filename--->file name<br>
+3.process--->info about environment where the program is being executed<br>
+4.require--->funtion to use modules(import them)<br>
 5.module--->info about current module
-<hr>
-  -------------MODULES-----------<hr>
-  -->Every file in NodeJs is a Module(By Default)<hr>
-  -->Built-in Modules:<hr>
-        1.OS-info about the OS<hr>
-        2.PATH-getting paths<hr>
-        3.FS-reading and writing(to) files<hr>
-        4.HTTP-help us in setting up a web server.<hr>
-<hr>
+<br>
+  -------------MODULES-----------<br>
+  -->Every file in NodeJs is a Module(By Default)<br>
+  -->Built-in Modules:<br>
+        1.OS-info about the OS<br>
+        2.PATH-getting paths<br>
+        3.FS-reading and writing(to) files<br>
+        4.HTTP-help us in setting up a web server.<br>
+<br>
   -------------------------------
-<hr>  Alternatives to callBack:(Avoiding Callbeack Hell)
+<br>  Alternatives to callBack:(Avoiding Callbeack Hell)
   1.Promises
   2.Async-Await
-  <hr>
+  <br>
 ---------------------------------
- <hr> -->npm -global command comes with node<hr>
-  -->npm -v(for vesrion)<hr>
-  -->local dependency(for only a particular project):npm i <package name><hr>
-        - - - - - - - - - - <hr>
- <hr> -->Global Dependency(use it in any projecy): npm i -g <packagename><hr>
-  -->package.json:Stores important information about the Dependencies.<hr>
+ <br> -->npm -global command comes with node<br>
+  -->npm -v(for vesrion)<br>
+  -->local dependency(for only a particular project):npm i <package name><br>
+        - - - - - - - - - - <br>
+ <br> -->Global Dependency(use it in any projecy): npm i -g <packagename><br>
+  -->package.json:Stores important information about the Dependencies.<br>
   
 
