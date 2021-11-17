@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "@types/node": "^16.11.7"
-  }
+    "@types/node": "^16.11.7",
+    "lodash": "^4.17.21"
+  },
+  "name": "nodelearn",
+  "version": "1.0.0",
+  "main": "Node-tutorial.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshah1729/nodeLearn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nshah1729/nodeLearn/issues"
+  },
+  "homepage": "https://github.com/nshah1729/nodeLearn#readme",
+  "description": ""
 }
