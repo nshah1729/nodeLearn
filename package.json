@@ -6,9 +6,11 @@
   "name": "nodelearn",
   "version": "1.0.0",
   "main": "Node-tutorial.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon utils.js"
   },
   "repository": {
     "type": "git",
