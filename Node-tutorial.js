@@ -20,5 +20,12 @@ GLOBAL OBJECTS:
   Alternatives to callBack:(Avoiding Callbeack Hell)
   1.Promises
   2.Async-Await
+---------------------------------
+  -->npm -global command comes with node
+  -->npm -v(for vesrion)
+  -->local dependency(for only a particular project):npm i <package name>
+
+  -->Global Dependency(use it in any projecy)
+
  */
 
