@@ -13,8 +13,7 @@ let order = (time, work) => {
             setTimeout(() => { resolve(work()) }, time)
 
         } else {
-            reject(console.log("Our Shop is Closed!");)
-}
-        
+            reject(console.log("Our Shop is Closed!"))
+        }
     })
 }
