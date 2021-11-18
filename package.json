@@ -13,7 +13,8 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "dev": "nodemon utils.js"
+    "dev": "nodemon utils.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
