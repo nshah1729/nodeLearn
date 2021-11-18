@@ -1,13 +1,16 @@
-const fs=require('fs');
-const getText=(path)=>{
-    return new Promise((resolve,reject)=>{
-        fs.readFile(path,'utf-8',(err,data)=>{
-            if(err){
+const fs = require('fs');
+const getText = (path) => {
+    return new Promise((resolve, reject) => {
+        fs.readFile(path, 'utf-8', (err, data) => {
+            if (err) {
                 reject('ee');
-            }else{
+            } else {
                 resolve(data);
             }
         })
     })
 }
-getText('./content/first.txt').then(result=>console.log(result)).catch(err=>console.log(err))
+getText('./content/first.txt')
+    .then(result => console.log(result))
+    .catch(err => console.log(err))
+    .finally(() => console.log('Finished!'));
