@@ -19,9 +19,26 @@
 
 // start()
 
-const EventEmitter= require('events')
-const customEmitter=new EventEmitter();
-customEmitter.on('response',()=>{
-    console.log(`Data Recieved!!!`);
+// const EventEmitter= require('events')
+// const customEmitter=new EventEmitter();
+// customEmitter.on('response',()=>{
+//     console.log(`Data Recieved!!!`);
+// })
+// customEmitter.emit('response')
+
+
+
+const fs = require('fs');
+const http = require('http');
+
+// for (let i = 0; i < 1000; i++) {
+//     fs.writeFileSync('./content/bigFile.txt', `hello world ${i}\n`, { flag: 'a' })
+
+// }
+http.createServer((req, res) => {
+    const textStream = fs.createReadStream('./content/bigFile.txt', 'utf8')
+    textStream.on('open', () => {
+        textStream.pipe(res)
+    })
 })
-customEmitter.emit('response')
+    .listen(3000)
