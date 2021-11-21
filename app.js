@@ -3,7 +3,7 @@ const fs = require('fs');
 const homePage = fs.readFileSync('./navbar-app/index.html')
 const homeStyles = fs.readFileSync('./navbar-app/styles.css')
 const homeImage = fs.readFileSync('./navbar-app/logo.svg')
-const homeLogic = fs.readFileSync('navbar-app/browser-app.js')
+const homeLogic = fs.readFileSync('./navbar-app/browser-app.js')
 const server = http.createServer((req, res) => {
   const url = req.url;
   if (url === '/') {
